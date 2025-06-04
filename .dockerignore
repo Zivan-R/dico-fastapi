@@ -1,0 +1,29 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Local environment config
+.env
+*.db
+*.sqlite3
+
+# Logs
+*.log
+
+# Git & editor clutter
+.git
+.gitignore
+.vscode/
+.idea/
+*.swp
+
+# Test and coverage
+tests/
+.coverage
+htmlcov/
+pytest_cache/
+
+# Docker & CI
+Dockerfile
+docker-compose.yml
