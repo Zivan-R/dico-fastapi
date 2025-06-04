@@ -4,8 +4,8 @@ from sqlalchemy.orm import Session
 from pydantic import BaseModel
 import httpx
 
-from models import DictionaryRequest
-from database import sessionLocal, base, engine
+from .models import DictionaryRequest
+from .database import sessionLocal, base, engine
 
 base.metadata.create_all(bind=engine)
 
