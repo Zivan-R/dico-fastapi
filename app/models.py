@@ -1,6 +1,6 @@
 from sqlalchemy import Column, Integer, String, DateTime, JSON
 from datetime import datetime
-from database import base
+from .database import base
 
 class DictionaryRequest(base):
     __tablename__="dictionary_requests"
