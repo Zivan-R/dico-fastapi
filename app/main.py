@@ -22,6 +22,10 @@ app.add_middleware(
     allow_headers=["*"]
 )
 
+@app.get("/")
+def health():
+    return {"status": "ok"}
+
 @app.post("/lookup")
 async def lookup_word(query: WordQuery):
     word = query.word.lower()
