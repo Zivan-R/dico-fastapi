@@ -5,3 +5,4 @@ mysql-connector-python
 alembic
 httpx
 pydantic
+pymysql
