@@ -1,0 +1,18 @@
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*.so
+
+# Env variables
+.env
+
+# DB files (SQLite etc., if used for local dev)
+*.db
+
+# Log files
+*.log
+
+# IDE/editor config
+.vscode/
+.idea/
+*.swp
